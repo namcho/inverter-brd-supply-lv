@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -173,7 +173,7 @@
 <text x="10.77" y="1.14" size="1.27" layer="21" rot="R90">48VDC / 24VAC</text>
 <text x="1.9" y="21.39" size="0.8128" layer="21" rot="R90">VDD</text>
 <text x="1.9" y="19.43" size="0.8128" layer="21" rot="R90">5V</text>
-<text x="1.8" y="15.25" size="0.6096" layer="21" rot="R90">GND</text>
+<text x="1.35" y="15.1" size="0.8128" layer="21" rot="R90">GND</text>
 <text x="1.9" y="11.44" size="0.8128" layer="21" rot="R90">3V3</text>
 <wire x1="2.3" y1="14.9" x2="1.6" y2="14.9" width="0.1524" layer="21"/>
 <wire x1="1.6" y1="14.9" x2="1.5" y2="15" width="0.1524" layer="21"/>
@@ -1438,14 +1438,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="1.9887" y="39.84" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="4.855" y="40.17" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA08-1" package3d_urn="urn:adsk.eagle:package:8343/1" value="" x="4.15" y="21.69" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="-111.42" y="-2.44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-111.42" y="-2.44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.801" y="31.85" size="0.8128" layer="25" ratio="10" rot="R270"/>
-<attribute name="OC_FARNELL" value="unknown" x="-111.42" y="-2.44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-111.42" y="-2.44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="10" x="-111.42" y="-2.44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="1.229" y="22.96" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA08-1" package3d_urn="urn:adsk.eagle:package:8343/1" value="" x="3.92" y="21.36" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-111.65" y="-2.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-111.65" y="-2.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="5.571" y="31.52" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="unknown" x="-111.65" y="-2.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-111.65" y="-2.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="10" x="-111.65" y="-2.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="0.999" y="22.63" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U1" library="enko" package="AOZ1282CI-1" value="1039-2397** MP2456GJ-Z 0.5A, 1.2MHz Step-Down Converter in a TSOT23-6, Input 4.5V to 50V, Output 0.81V to 45V" x="10.13" y="42.46" smashed="yes">
 <attribute name="NAME" x="7.166490625" y="40.3361" size="0.8128" layer="25" ratio="10" rot="SR0"/>
@@ -1528,8 +1528,8 @@ design rules under a new name.</description>
 <vertex x="5.38" y="12.82"/>
 <vertex x="5.38" y="11.55"/>
 </polygon>
-<wire x1="1.34" y1="13.65" x2="2.19" y2="12.8" width="0.6096" layer="1"/>
-<wire x1="2.19" y1="12.8" x2="4.15" y2="12.8" width="0.6096" layer="1"/>
+<wire x1="1.34" y1="13.65" x2="2.52" y2="12.47" width="0.6096" layer="1"/>
+<wire x1="2.52" y1="12.47" x2="3.92" y2="12.47" width="0.6096" layer="1"/>
 </signal>
 <signal name="DGND">
 <contactref element="SV1" pad="6"/>
@@ -1677,7 +1677,7 @@ design rules under a new name.</description>
 <vertex x="14.13" y="40.86"/>
 </polygon>
 <via x="16.5" y="39.88" extent="1-16" drill="0.5"/>
-<wire x1="4.15" y1="15.34" x2="4.15" y2="17.88" width="0.6096" layer="1"/>
+<wire x1="3.92" y1="15.01" x2="3.92" y2="17.55" width="0.6096" layer="1"/>
 <polygon width="0.3048" layer="1" thermals="no">
 <vertex x="7.56" y="22.99"/>
 <vertex x="14.56" y="22.99"/>
@@ -1809,8 +1809,8 @@ design rules under a new name.</description>
 <wire x1="13.075" y1="29.6512" x2="13.075" y2="28.0785375" width="0.6096" layer="1"/>
 <wire x1="13.075" y1="28.0785375" x2="11.8352625" y2="26.8388" width="0.6096" layer="1"/>
 <wire x1="8.5385375" y1="26.8388" x2="11.8352625" y2="26.8388" width="0.6096" layer="1"/>
-<wire x1="5.38" y1="22.7" x2="4.41" y2="22.7" width="0.6096" layer="1"/>
-<wire x1="4.15" y1="22.96" x2="4.41" y2="22.7" width="0.6096" layer="1"/>
+<wire x1="5.38" y1="22.7" x2="4.02" y2="22.7" width="0.6096" layer="1"/>
+<wire x1="3.92" y1="22.63" x2="4.02" y2="22.7" width="0.6096" layer="1"/>
 <wire x1="7.6812" y1="25.0012" x2="7.6812" y2="25.9814625" width="0.6096" layer="1"/>
 <wire x1="7.6812" y1="25.9814625" x2="8.5385375" y2="26.8388" width="0.6096" layer="1"/>
 <wire x1="5.38" y1="22.7" x2="7.6812" y2="25.0012" width="0.6096" layer="1"/>
@@ -1891,8 +1891,8 @@ design rules under a new name.</description>
 <wire x1="1.829996875" y1="38.03" x2="1.75" y2="38.03" width="0.6096" layer="16"/>
 <wire x1="1.75" y1="38.03" x2="1.3213" y2="37.6013" width="0.6096" layer="16"/>
 <wire x1="1.3213" y1="37.6013" x2="1.3213" y2="21.12" width="0.6096" layer="16"/>
-<wire x1="1.3213" y1="21.12" x2="2.0213" y2="20.42" width="0.6096" layer="16"/>
-<wire x1="2.0213" y1="20.42" x2="4.15" y2="20.42" width="0.6096" layer="16"/>
+<wire x1="1.3213" y1="21.12" x2="2.3513" y2="20.09" width="0.6096" layer="16"/>
+<wire x1="2.3513" y1="20.09" x2="3.92" y2="20.09" width="0.6096" layer="16"/>
 <wire x1="17.99" y1="60.785" x2="17.99" y2="58.8362" width="0.508" layer="1"/>
 <wire x1="17.99" y1="58.8362" x2="17.9538" y2="58.8" width="0.508" layer="1"/>
 <wire x1="17.9538" y1="58.8" x2="19.3438" y2="58.8" width="0.508" layer="1"/>
@@ -1928,8 +1928,8 @@ design rules under a new name.</description>
 <wire x1="21.47913125" y1="19.5762625" x2="21.41351875" y2="19.51065" width="0.6096" layer="1"/>
 <wire x1="21.571709375" y1="23.981709375" x2="21.571709375" y2="23.981446875" width="0.6096" layer="1"/>
 <wire x1="21.41351875" y1="19.51065" x2="20.663515625" y2="19.51065" width="0.6096" layer="16"/>
-<wire x1="20.663515625" y1="19.51065" x2="5.05935" y2="19.51065" width="0.6096" layer="16"/>
-<wire x1="5.05935" y1="19.51065" x2="4.15" y2="20.42" width="0.6096" layer="16"/>
+<wire x1="20.663515625" y1="19.51065" x2="4.52935" y2="19.51065" width="0.6096" layer="16"/>
+<wire x1="4.52935" y1="19.51065" x2="3.92" y2="20.09" width="0.6096" layer="16"/>
 <wire x1="17.99" y1="60.785" x2="18.025" y2="60.82" width="0.508" layer="1"/>
 <via x="19.02" y="60.81" extent="1-16" drill="0.5"/>
 <wire x1="19.02" y1="60.81" x2="18.18629375" y2="60.81" width="0.508" layer="16"/>
