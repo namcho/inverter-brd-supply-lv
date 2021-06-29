@@ -10974,7 +10974,7 @@ chip</description>
 <part name="D1" library="diodes" deviceset="SD-" device="SMA" value="1119-3055** DIODE SCHOTTKY 1A 40V DO-214AC SMA DIODES B140-13-F"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603E" value="1200920268**CAP 0603 CER 100nF 50V %10 X7R"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="1200960006**DIODE LED SMD 0805 RED 10mcd 638nm AlInGaP"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603E" value="1200970927**RES 0603 100R %1 1/10W"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603E" value="470R"/>
 <part name="IC1" library="enko" deviceset="NCP115ASN330T2G" device="" value="1039-2387**3.3V 300mA LDO Voltage Regulator TSOP-5"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603E" value="1200920268**CAP 0603 CER 100nF 50V %10 X7R"/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603E" value="1200920271**CAP 0603 CER 10pF 50V%10 COG"/>
@@ -10987,7 +10987,7 @@ chip</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603E" value="1200970803**RES 0603 100K %1 1/10W"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0603E" value="1200920252**CAP 0603 CER 1nF 50V %10 X7R"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603E" value="1019-3387**CAP 0603 CER 10uF 10V %10 X5R"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0603E" value="1029-2006**RES 0603 47R %1"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0603E" value="220R"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="1200960006**DIODE LED SMD 0805 RED 10mcd 638nm AlInGaP"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805E" value="10uF 50V %10 X7R"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603E" value="1200970803**RES 0603 100K %1 1/10W"/>

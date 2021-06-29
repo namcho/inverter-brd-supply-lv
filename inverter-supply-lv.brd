@@ -1396,11 +1396,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7.2687" y="26.14" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="8.865" y="28.41" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R13" library="rcl" package="R0603_ENKO" value="1200970927**RES 0603 100R %1 1/10W" x="19.44" y="57.91" smashed="yes" rot="R90">
+<element name="R13" library="rcl" package="R0603_ENKO" value="470R" x="19.44" y="57.91" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.2387" y="56.31" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="21.345" y="56.64" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R14" library="rcl" package="R0603_ENKO" value="1029-2006**RES 0603 47R %1" x="14.63" y="67.32" smashed="yes" rot="R270">
+<element name="R14" library="rcl" package="R0603_ENKO" value="220R" x="14.63" y="67.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.7313" y="68.97" size="0.8128" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="12.725" y="68.59" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
